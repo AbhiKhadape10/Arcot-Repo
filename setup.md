@@ -5,4 +5,5 @@
 3. Initialize a virtual environment:
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   source venv/bin/activate
+   # On Windows, use `venv\Scripts\activate`
