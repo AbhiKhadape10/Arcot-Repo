@@ -1,6 +1,6 @@
 # DevOps Assignment Documentation
 
-This document provides an overview of the DevOps setup for the project, covering various aspects such as the CI/CD pipeline, integration of AI/ML components, deployment strategies, testing strategies, and monitoring solutions.
+This document provides an overview of the DevOps setup for the project, covering various aspects such as the CI/CD pipeline, integration of AI/ML components, deployment strategies, testing strategies, monitoring solutions, and other relevant information.
 
 ## CI/CD Pipeline
 
@@ -32,6 +32,22 @@ The project integrates AI/ML components for tasks such as model training, testin
 
 2. **Model Artifacts:**
    - Include model artifacts in the repository.
+
+### Handling GPU Usage
+
+- **GPU Dependencies:**
+  - Specify any GPU dependencies required by your AI/ML models.
+- **Configuration for GPU Usage:**
+  - Provide information on how the deployment environment is configured to leverage GPU resources.
+- **Testing on GPU:**
+  - If applicable, mention any specific testing procedures related to GPU usage.
+
+### Managing Large Datasets
+
+- **Data Storage:**
+  - Specify where large datasets are stored.
+- **Data Loading Strategies:**
+  - Explain how your application efficiently loads and processes large datasets.
 
 ## Deployment Strategies
 
