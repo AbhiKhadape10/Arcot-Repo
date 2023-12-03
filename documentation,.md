@@ -31,7 +31,7 @@ The project integrates AI/ML components for tasks such as model training, testin
    - Dependencies specified in the `requirements_ml.txt` file.
 
 2. **Model Artifacts:**
-   - Include model artifacts in the repository or provide a link to download them.
+   - Include model artifacts in the repository.
 
 ## Deployment Strategies
 
