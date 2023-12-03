@@ -49,6 +49,55 @@ The project integrates AI/ML components for tasks such as model training, testin
 - **Data Loading Strategies:**
   - Explain how your application efficiently loads and processes large datasets.
 
+## Version Control Strategy
+
+### Code Versioning
+
+#### Branching Strategy
+
+The codebase follows a branching strategy for version control. Typically, the following branches are used:
+
+- `main`: Represents the production-ready code.
+- `development`: Integration branch for ongoing development work.
+- Feature branches: Created for new features or bug fixes.
+
+#### Tagging for Releases
+
+Tags are used to mark specific points in history, usually denoting releases or important milestones. Tags provide a snapshot of the codebase at a particular point.
+
+### AI/ML Component Versioning
+
+#### Model Versioning
+
+Machine learning models are versioned using a systematic approach. This might involve:
+
+- Incrementing model versions based on significant changes.
+- Tagging models with specific releases to align with code versions.
+
+#### Datasets Versioning
+
+Datasets are versioned to ensure reproducibility and traceability. Consider using dataset versioning tools or frameworks to manage changes.
+
+### Challenges and Solutions
+
+#### Managing Large Files
+
+Handling large files, such as model artifacts and datasets, presents challenges in version control. To address this:
+
+- Use Git LFS (Large File Storage) for storing large files efficiently.
+- Consider cloud-based solutions for storing and versioning large datasets.
+
+#### Model Versioning Challenges
+
+Model versioning requires careful consideration due to the nature of binary files. Solutions include:
+
+- Storing models separately from the codebase.
+- Using a dedicated model repository or artifact registry.
+
+
+
+
+
 ## Deployment Strategies
 
 ### Cloud-based Deployment
