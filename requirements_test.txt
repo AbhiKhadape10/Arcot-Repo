@@ -1,0 +1,4 @@
+# Testing Dependencies
+pytest==7.0.1
+coverage==6.0
+flake8==4.0.0
