@@ -72,7 +72,7 @@ jobs:
 
   test:
     runs-on: ubuntu-latest
-    needs: build
+    needs: deploy
 
     steps:
       - name: Arcot-Repo
